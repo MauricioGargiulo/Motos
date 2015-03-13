@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Each position of id refers to an string array -->
+    <array name="array_motos_a_modelos">
+        <item>@array/modelos_marca</item>
+        <item>@array/modelos_aprilia</item>
+        <item>@array/modelos_benelli</item>
+        <item>@array/modelos_bmw</item>
+        <item>@array/modelos_csr</item>
+        <item>@array/modelos_daelim</item>
+        <item>@array/modelos_derbi</item>
+        <item>@array/modelos_ducati</item>
+        <item>@array/modelos_gilera</item>
+        <item>@array/modelos_harley</item>
+        <item>@array/modelos_honda</item>
+        <item>@array/modelos_kawasaki</item>
+        <item>@array/modelos_ktm</item>
+        <item>@array/modelos_kymco</item>
+        <item>@array/modelos_peugeot</item>
+        <item>@array/modelos_piaggio</item>
+        <item>@array/modelos_renault</item>
+        <item>@array/modelos_suzuki</item>
+        <item>@array/modelos_triumph</item>
+        <item>@array/modelos_vespa</item>
+        <item>@array/modelos_vespino</item>
+        <item>@array/modelos_yamaha</item>
+
+
+    </array>
+
+    <string-array name="marcas">
+
+        <item>MARCA</item>
+        <item >APRILIA</item>
+        <item >BENELLI</item>
+        <item >BMW</item>
+        <item>CSR</item>
+        <item>DAELIM</item>
+        <item>DERBI</item>
+        <item>DUCATI</item>
+        <item>GILERA</item>
+        <item>HARLEY DAVIDSON</item>
+        <item>HONDA</item>
+        <item >KAWASAKI</item>
+        <item>KTM</item>
+        <item >KYMCO</item>
+        <item>PEUGEOT</item>
+        <item>PIAGGIO</item>
+        <item >RENAULT</item>
+        <item >SUZUKI</item>
+        <item>TRIUMPH</item>
+        <item >VESPA</item>
+        <item >VESPINO</item>
+        <item >YAMAHA</item>
+
+    </string-array>
+
+    <string-array name="modelos_marca">
+        <item>MODELO</item>
+    </string-array>
+
+    <string-array name="modelos_aprilia">
+        <item>AF1 125 Sport Pro</item>
+        <item>Arrecife 125</item>
+        <item>Arrecife 200</item>
+        <item>Arrecife 250</item>
+        <item>Arrecife 500</item>
+        <item>Arrecife 500 Sprint</item>
+        <item>ATLANTIC 125</item>
+        <item>ATLANTIC 250 i.e.</item>
+        <item>ATLANTIC 300</item>
+        <item>ATLANTIC 500 Sprint</item>
+        <item>Classic 125</item>
+        <item>Classic 50</item>
+        <item>Classic 75</item>
+        <item>SMV 1200 Dorsoduro ABS TCS</item>
+        <item>SMV 750 Dorsoduro</item>
+        <item>SMV 750 Dorsoduro ABS</item>
+        <item>SMV 750 Dorsoduro Factory</item>
+        <item>SMV 750 Dorsoduro Factory ABS</item>
+
+    </string-array>
+
+
+    <string-array name="modelos_benelli">
+        <item>125 Sport</item>
+        <item>125 T</item>
+        <item>250 Quattro</item>
+        <item>250 Sport</item>
+        <item>304 250cc</item>
+        <item>354 Sport</item>
+        <item>354 Sport II</item>
+        <item>491 Sport</item>
+        <item>500 Quattro</item>
+        <item>TNT 1130</item>
+        <item>TNT 1130 R</item>
+        <item>TNT 1130 Titanium</item>
+        <item>TNT Sport</item>
+    </string-array>
+
+
+    <string-array name="modelos_bmw">
+        <item>C 600 Sport</item>
+        <item>C 650 GT</item>
+        <item>F 700 GS</item>
+        <item>F 800 GS</item>
+        <item>F 800 Adventure</item>
+        <item>R 1200 GS 30 YEARS GS</item>
+        <item>R 1200 GS Adventure</item>
+        <item>R 1200 GS Adventure 90 Aniversario</item>
+        <item>S 1000 R</item>
+        <item>S 1000 RR</item>
+        <item>S 1000 XR</item>
+        <item>Special Edition</item>
+    </string-array>
+
+
+    <string-array name="modelos_csr">
+        <item>Custom 125</item>
+        <item>Junior 150</item>
+        <item>Junior 90</item>
+        <item>Trail 125</item>
+        <item>Trail 200</item>
+    </string-array>
+
+
+    <string-array name="modelos_daelim">
+        <item>A Four 50</item>
+        <item>B-Bone 125</item>
+        <item>Daystar</item>
+        <item>Daystar 125</item>
+        <item>Delfino 100</item>
+        <item>VT 125</item>
+    </string-array>
+
+
+    <string-array name="modelos_derbi">
+        <item>ATLANTIS 100</item>
+        <item>ATLANTIS 50 2T</item>
+        <item>ATLANTIS 50 4T</item>
+        <item>ATLANTIS Bullet</item>
+        <item>ATLANTIS City 100</item>
+        <item>BOULEVARD 125</item>
+        <item>BOULEVARD 125 4T</item>
+        <item>BOULEVARD 150</item>
+        <item>BOULEVARD 200</item>
+        <item>Variant Sport R</item>
+    </string-array>
+
+    <string-array name="modelos_ducati">
+        <item>1000 DS</item>
+        <item>1000 Monoposto</item>
+        <item>1000 SPORT BIPOSTO</item>
+        <item>1098 SUPERBIKE</item>
+        <item>1198 S</item>
+        <item>1199 Panigale</item>
+        <item>1199 Panigale ABS</item>
+        <item>1199 Panigale R</item>
+        <item>1199 Panigale S</item>
+        <item>999 Sport</item>
+        <item>MONSTER 696</item>
+        <item>MONSTER 696+</item>
+    </string-array>
+
+    <string-array name="modelos_gilera">
+        <item>ATLAS 125</item>
+        <item>Cannibal 50</item>
+        <item>Cougar 125</item>
+        <item>DAKOTA 350</item>
+        <item>DAKOTA 500</item>
+        <item>Nexus 125</item>
+        <item>Nexus 250</item>
+        <item>Nexus 300</item>
+        <item>Nexus 500</item>
+    </string-array>
+
+    <string-array name="modelos_harley">
+        <item>CVO Breakout</item>
+        <item>CVO Road King</item>
+        <item>CVO Road King Softail Deluxe</item>
+        <item>CVO Street Glide</item>
+        <item>Dyna Low Rider</item>
+        <item>Dyna Super Glide 1340</item>
+        <item>Dyna Super Glide 1500</item>
+        <item>Dyna Super Glide Custom</item>
+        <item>Sportster 1200 Sport</item>
+        <item>Sportster 1200R</item>
+        <item>Sportster 883</item>
+    </string-array>
+
+    <string-array name="modelos_honda">
+        <item>125</item>
+        <item>150</item>
+        <item>CB 1000</item>
+        <item>CB 1000R</item>
+        <item>CB 1000R ABS</item>
+        <item>CB 1300</item>
+        <item>CB 1300 ABS</item>
+        <item>CB 1300S</item>
+        <item>CB 1300S ABS</item>
+        <item>CBR 1000RR Repsol</item>
+        <item>CBR 1100 XX</item>
+    </string-array>
+
+
+    <string-array name="modelos_kawasaki">
+        <item>Eliminator 125</item>
+        <item>GPX 600</item>
+        <item>GPX 600R</item>
+        <item>GPX 750</item>
+        <item>GPZ 1000 RX</item>
+        <item>GPZ 1100</item>
+        <item>GT 750</item>
+        <item>GTR 1000</item>
+        <item>GTR 1400</item>
+        <item>J 300</item>
+        <item>NINJA 300</item>
+        <item>NINJA H2</item>
+    </string-array>
+
+    <string-array name="modelos_ktm">
+        <item>125</item>
+        <item>125 GS</item>
+        <item>450 Rally</item>
+        <item>50 EXC</item>
+        <item>50 MINI ADVENTURE</item>
+        <item>640 Supermoto</item>
+        <item>690 ENDURO</item>
+        <item>990 ADVENTURE</item>
+        <item>SX 525</item>
+    </string-array>
+
+    <string-array name="modelos_kymco">
+        <item>Agility 125</item>
+        <item>Agility 50</item>
+        <item>BetWin 150</item>
+        <item>BetWin 50</item>
+        <item>Dink 125 LX</item>
+        <item>Grand Dink 125</item>
+        <item>Grand Dink 150</item>
+        <item>GT 300i</item>
+        <item>People 50</item>
+        <item>Super Dink 125i</item>
+        <item>Super Dink 300i</item>
+        <item>Xciting 500</item>
+    </string-array>
+
+    <string-array name="modelos_peugeot">
+        <item>Citystar 125i</item>
+        <item>ELYSEO 125</item>
+        <item>ELYSEO 50</item>
+        <item>GEOPOLIS 125</item>
+        <item>GEOPOLIS 125 URBAN</item>
+        <item>GEOPOLIS 125 CITY</item>
+        <item>GEOPOLIS 400 URBAN</item>
+        <item>GEOPOLIS 400 PREMIUM</item>
+    </string-array>
+
+    <string-array name="modelos_piaggio">
+
+        <item>FLY 50</item>
+        <item>FLY 50 2T</item>
+        <item>FLY 50 4T</item>
+        <item>FLY 125 4T</item>
+        <item>LIBERTY 125 4T</item>
+        <item>LIBERTY 50</item>
+        <item>LIBERTY 200</item>
+        <item>MP3 300</item>
+        <item>X9 500</item>
+
+    </string-array>
+
+    <string-array name="modelos_renault">
+        <item>CAMPUS REPLICA</item>
+        <item>Kouranos 250</item>
+    </string-array>
+
+    <string-array name="modelos_suzuki">
+        <item>BURGMAN 125</item>
+        <item>BURGMAN 200</item>
+        <item>BURGMAN 250</item>
+        <item>BURGMAN 400 Edicion Especial</item>
+        <item>BURGMAN 650</item>
+        <item>GSF 1200 Bandit</item>
+        <item>GSF Bandit Limited</item>
+        <item>GSX 1400</item>
+
+    </string-array>
+
+    <string-array name="modelos_triumph">
+        <item>AMERICA 900</item>
+        <item>BONNEVILLE 900</item>
+        <item>BONNEVILLE Black</item>
+        <item>DAYTONA 1000</item>
+        <item>DAYTONA 1200</item>
+        <item>DAYTONA 650</item>
+        <item>ROCKET III</item>
+        <item>Speedmaster</item>
+        <item>SPRINT GT</item>
+        <item>Thunderbird 1600</item>
+        <item>THROPY 1200</item>
+    </string-array>
+
+    <string-array name="modelos_vespa">
+        <item>ET 125</item>
+        <item>Gran Turismo 125</item>
+        <item>Gran Turismo 200</item>
+        <item>GTS 300</item>
+        <item>Iris 125</item>
+        <item>S 50 4T 4V</item>
+    </string-array>
+
+    <string-array name="modelos_vespino">
+        <item>AL 50</item>
+        <item>ALX 50</item>
+        <item>F9 50</item>
+        <item>Velofax 50</item>
+        <item>NL 50 Classic</item>
+    </string-array>
+
+
+    <string-array name="modelos_yamaha">
+        <item>Aerox 50</item>
+        <item>Aerox 50 R Naked</item>
+        <item>Aerox 50 R Replica Valentino Rossi</item>
+        <item>Aerox 50 R Special Edition</item>
+        <item>BWS Scooter</item>
+        <item>Cygnus 125</item>
+        <item>FJ 1100</item>
+        <item>FJR 1300</item>
+        <item>FZ8 N Sport</item>
+        <item>TZR 50th Anniversary</item>
+        <item>X MAX 125 Sport</item>
+        <item>X MAX 250</item>
+        <item>X MAX 250 Sport</item>
+        <item>X MAX 400</item>
+    </string-array>
+
+</resources>

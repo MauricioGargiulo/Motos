@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/AnadirCoche"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"
+        android:title="Añadir"></item>
+
+    <item
+        android:id="@+id/mainMenu"
+        android:icon="@android:drawable/ic_menu_more"
+        android:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/AnadirCocheOverflow"
+                android:icon="@android:drawable/ic_menu_add"
+                android:showAsAction="never"
+                android:title="Añadir"></item>
+            <item
+                android:id="@+id/BorrarTodas"
+                android:icon="@android:drawable/ic_delete"
+                android:title="Borrar todas"></item>
+            <item
+                android:id="@+id/Cargarxml"
+                android:icon="@android:drawable/stat_notify_sync"
+                android:showAsAction="never"
+                android:title="Cargar XML MySQL"></item>
+            <item
+                android:id="@+id/CargarXmlApache"
+                android:icon="@android:drawable/ic_menu_rotate"
+                android:showAsAction="never"
+                android:title="Cargar XML Apache"></item>
+            <item
+                android:id="@+id/BDaXML"
+                android:icon="@android:drawable/ic_menu_set_as"
+                android:showAsAction="never"
+                android:title="SQLite a XML"></item>
+        </menu>
+    </item>
+</menu>

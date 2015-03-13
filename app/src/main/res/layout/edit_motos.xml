@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/dim_foreground_disabled_material_dark"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:id="@+id/lblMarca"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#009688"
+                android:text="LOS DATOS DE MI MOTO: "
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/imgViewContactImage"
+                android:background="@color/material_deep_teal_500"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/no_moto"
+                android:layout_marginTop="10dp"
+                />
+
+            <Spinner
+                android:id="@+id/sp_marca"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:prompt="@string/marcaMoto"
+                android:spinnerMode="dropdown"/>
+
+            <Spinner
+                android:id="@+id/sp_modelo"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:prompt="@string/modeloMoto"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/spnMotorizacion"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp" />
+
+            <EditText
+                android:id="@+id/entradaKilometros"
+                android:layout_width="match_parent"
+                android:hint="Kms"
+                android:inputType="number"
+                android:layout_height="70dp" />
+
+            <EditText
+                android:id="@+id/entradaColor"
+                android:layout_width="match_parent"
+                android:hint="Color"
+                android:layout_height="70dp" />
+
+            <EditText
+                android:id="@+id/entradaPrecio"
+                android:layout_width="match_parent"
+                android:hint="Precio €"
+                android:inputType="number"
+                android:layout_height="70dp" />
+
+
+            <TextView
+                android:id="@+id/lblFechaCompra"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Fecha de matriculación: "
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <DatePicker
+                android:id="@+id/datePicker"
+                android:layout_width="wrap_content"
+                android:calendarViewShown="false"
+                android:layout_height="wrap_content"
+                android:endYear="2100"
+                android:startYear="1950"
+                android:layout_gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btnAñadir"
+                    android:layout_width="100dp"
+                    android:background="@drawable/estilos_button"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/abc_secondary_text_material_dark"
+                    android:onClick="onClick"
+                    android:text="Añadir" />
+
+                <Button
+                    android:id="@+id/btnCancelar"
+                    android:layout_width="100dp"
+                    android:background="@drawable/estilos_button"
+                    android:layout_marginLeft="3dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickCancelar"
+                    android:textColor="@color/abc_secondary_text_material_dark"
+                    android:text="Cancelar" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+

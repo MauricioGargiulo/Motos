@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/ivContactImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/no_moto"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="false"
+        android:clickable="false"
+        android:theme="@android:style/Animation.Toast" />
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_toRightOf="@+id/ivContactImage">
+
+    <TextView
+        android:id="@+id/lblMarcaModelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="KYMCO "
+        android:textColor="#009688"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/lblModelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#009688"
+        android:text="CVO Road King Softail Deluxe"
+        android:textStyle="bold"
+        android:layout_below="@+id/lblMarcaModelo"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:singleLine="true" />
+
+
+
+    <TextView
+        android:id="@+id/lblPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="2500"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:textColor="#ffff5d37"
+        android:layout_below="@+id/lblModelo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:id="@+id/lblKilometros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150235"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:layout_below="@+id/lblPrecio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/lblEuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text=" €"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:textColor="#ffff5d37"
+            android:layout_alignTop="@+id/lblPrecio"
+            android:layout_toRightOf="@+id/lblPrecio"
+            android:layout_toEndOf="@+id/lblPrecio" />
+
+        <TextView
+            android:id="@+id/lblkm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" km "
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:layout_alignTop="@+id/lblKilometros"
+            android:layout_toRightOf="@+id/lblKilometros"
+            android:layout_toEndOf="@+id/lblKilometros" />
+
+    </RelativeLayout>
+</RelativeLayout>
